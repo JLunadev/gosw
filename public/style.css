@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Rubik;
+  src: url('/assets/Rubik.ttf');
+}
+
+html {
+  font-family: Rubik;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header {
+  background-color: #00FFAF;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 1px;
+}
+
+.alert {
+  background-color: #00FFAF;
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  width: 150px;
+  margin: auto;
+}
+
+.alertbutton {
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  height: 24px;
+  color: #00FFAF;
+  margin: auto;
+}
+
+.alertbutton:hover {
+  background-color: #00FFAF;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input {
+  font-family: Rubik;
+  border: solid;
+  border-color: #00FFAF;
+  border-width: 4;
+  border-radius: 8px;
+  height: 40px;
+  transition-duration: 0.5s;
+  text-align: center;
+  margin-left: auto;
+}
+
+input:focus {
+  border-color: #CBFFEF;
+  outline: none;
+}
+
+input:hover {
+  border-color: #CBFFEF;
+  outline: none;
+}
+
+button {
+  font-family: Rubik;
+  background-color:#FFFFFF;
+  border: solid;
+  border-color: #00FFAF;
+  border-width: 4;
+  border-radius: 8px;
+  height: 40px;
+  transition-duration: 0.5s;
+  text-align: center;
+  margin-left: auto;
+}
+
+button:hover {
+  border-color: #CBFFEF;
+  outline: none;
+  cursor: pointer;
+}
+
+img {
+  width: 36px;
+  height: 36px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.source-code-label {
+  background-color: #00FFAF;
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
